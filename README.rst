@@ -6,8 +6,9 @@
     :alt: Documentation Status
 
 
-Notes on making CPython faster
+项目简介
+===========
 
-* Read online: https://faster-cpython.readthedocs.io/
-* Compile to HTML: make html
-* Documentation built by Sphinx
+* 阅读网址: http://faster-cpython.jetz.io
+* 编译为HTML: make html
+* 本文当使用Sphinx构建
