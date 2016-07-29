@@ -1,6 +1,13 @@
+.. image:: https://travis-ci.org/jetz/faster_cpython_cn.svg?branch=master
+    :target: https://travis-ci.org/jetz/faster_cpython_cn
+
+.. image:: https://readthedocs.org/projects/faster-cpython-cn/badge/?version=latest
+    :target: http://faster-cpython.jetz.io/zh_CN/latest/?badge=latest
+    :alt: Documentation Status
+
+
 Notes on making CPython faster
 
 * Read online: https://faster-cpython.readthedocs.io/
 * Compile to HTML: make html
 * Documentation built by Sphinx
-

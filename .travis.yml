@@ -1,0 +1,8 @@
+branches:
+  only:
+    - master
+sudo: false
+language: python
+install: pip install sphinx
+script: 
+- make html
