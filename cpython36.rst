@@ -1,36 +1,32 @@
 ********************************
-Projects to optimize CPython 3.6
+那些年优化CPython 3.6的项目
 ********************************
 
-Complete or almost complete projects
+已完成或即将完成的项目
 ====================================
 
-* **MERGED**: `Wordcode <http://bugs.python.org/issue26647>`_
+* **已合并**: `Wordcode <http://bugs.python.org/issue26647>`_
 
-  * New format of bytecode which will allow to fetch opcode+oparg in a single
-    16-bit operation.
+  * 新的字节码格式，使用该格式可以在一个单独的16位操作中获取操作码(opcode)以及操作参数(oparg)。
 
-* :ref:`FAT Python <fat-python>`: PEP 509, PEP 510, PEP 511, fat and
-  fatoptimizer.
+* :ref:`FAT Python <fat-python>`: PEP 509, PEP 510, PEP 511, fat and fatoptimizer.
 
-  * Owner: Victor Stinner.
-  * Speed-up: unknown :-(
+  * 作者: Victor Stinner
+  * 加速情况: 未知 :-(
 
-* `CPython build options for out-of-the box performance
-  <https://bugs.python.org/issue26359>`_
+* `CPython build options for out-of-the box performance <https://bugs.python.org/issue26359>`_
 
-  * Owner: Alecsandru Patrascu
-  * Speed-up: unknown.
+  * 作者: Alecsandru Patrascu
+  * 加速情况: 未知
 
-* **MERGED**: `Change PyMem_Malloc to use PyObject_Malloc allocator?
-  <https://bugs.python.org/issue26249>`_
+* **已合并**: `Change PyMem_Malloc to use PyObject_Malloc allocator?  <https://bugs.python.org/issue26249>`_
 
-  * Owner: Victor Stinner
-  * Speed-up: up to 6% faster in fastpickle of perf.py (up to 22% faster on
+  * 作者: Victor Stinner
+  * 加速情况: up to 6% faster in fastpickle of perf.py (up to 22% faster on
     unpickle_list of perf.py, according to Intel run of perf.py).
 
 
-Micro optimizations
+微优化
 ===================
 
 Open
@@ -84,7 +80,7 @@ Closed
 
 
 
-Experimental projects
+试验性项目
 =====================
 
 * `co_stacksize is calculated from unoptimized code
